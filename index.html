@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Score -->
+        <div class="score_card">
+            <p id="game_Name">
+                Rock <br>
+                Paper<br>
+                Scissors             
+            </p>
+            <div class="score">
+                <div class="text">SCORE</div>
+                 <div class="score-count"></div>
+            </div>
+        </div>
+
+        <div class="mainGame">
+            <div class="player1" class="PLAYER">
+                <h1>PLAYER 1</h1>
+                <div class="cell" id="cell1">
+                    <!-- <img src="./paper.jpg" alt="" srcset=""> -->
+                </div>
+            </div>
+            <div class="buttons">
+                <button class ="rock" id="0">ROCK</button>
+                <button class ="Paper" id="1">PAPER</button>
+                <button class ="Scissors" id="2">SCISSORS</button>            
+                <button id="RESTART">RESTART GAME</button>
+            </div>
+            <div class="player2" class="PLAYER">
+                <h1>COMPUTER</h1>
+                <div class="cell" id="cell2"></div>
+            </div>
+        </div>
+        <div class="winning-msg"></div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

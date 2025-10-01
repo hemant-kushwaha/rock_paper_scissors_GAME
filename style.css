@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+     font-family: 'Arial', sans-serif;
+     background: radial-gradient(circle at center, #1f3756, #141539);
+     display: flex;
+     justify-content: center;
+     /* align-items: center; */
+
+}
+
+.score_card{
+    border-radius: 10px;
+    border: 3px rgb(204, 192, 192) solid;
+    color: aliceblue;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score{
+    background-color: aliceblue;
+    height: 7rem;
+    padding: 1rem;
+    color: #141539;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.mainGame{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 90vw;
+    padding: 2rem;
+    margin-top: 2rem;
+    height: 50vh;
+    /* border: 3px rgb(204, 192, 192) solid; */
+    color: aliceblue;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button{
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 0.6rem;
+}
+
+.winning-msg{
+    color: aliceblue;
+    text-align: center;
+    font-size: 3rem;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.cell{
+    margin-top: 2rem;
+}
+
